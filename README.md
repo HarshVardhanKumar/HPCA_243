@@ -5,7 +5,11 @@ Project Name: A METHOD FOR COMBINING PREFETCHING ALGORITHMS USING ORCHESTRATION 
 Please read the proposal [here](/Proposal.pd).
 
 ## Results:
-### Overall Accuracy:
-We use our proposal to create a hybrid prefetcher for L2 cache using two separate prefetchers - Berti prefetcher and PPF prefetcher. The overall accuracy for various benchmarks has improved as can be seen below. (The X-axis gives the id of the SPEC2017 benchmarks. These benchmark program traces can be found [here](http://hpca23.cse.tamu.edu/champsim-traces/speccpu/)
-![Accuracy comparision](/accuracies.png)
+The following results have been obtained on [ChampSim](https://github.com/ChampSim/ChampSim) simulator using SPEC 2017 benchmark program traces available [here](http://hpca23.cse.tamu.edu/champsim-traces/speccpu/). The x-axis represents the benchmark IDs.
 
+### Improvement in Overall Accuracy:
+We use our proposal to create a hybrid prefetcher for only the L2 cache using two separate prefetchers - Berti prefetcher and PPF prefetcher. The overall accuracy on the prefetches for L2 cache has improved for various benchmarks.
+
+### Overall cache miss count:
+For some benchmarks, it remain same while for others it gets reduced. Please note that overall cache miss count depends on all the caches - L1D, L1C, L2 and LLC. We've implemented our proposal on only the L2 cache.
+![Total Cache Misses](/cachemisses.png)
