@@ -7,5 +7,5 @@ Please read the proposal [here](/Proposal.pd).
 ## Results:
 ### Overall Accuracy:
 We use our proposal to create a hybrid prefetcher for L2 cache using two separate prefetchers - Berti prefetcher and PPF prefetcher. The overall accuracy for various benchmarks has improved as can be seen below. (The X-axis gives the id of the SPEC2017 benchmarks. These benchmark program traces can be found [here](http://hpca23.cse.tamu.edu/champsim-traces/speccpu/)
-![Accuracy comparision](/accuracy.png)
+![Accuracy comparision](/accuracies.png)
 
