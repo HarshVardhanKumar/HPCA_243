@@ -2,7 +2,7 @@
 Submission code for course term project : E0243 `High performance computer architecture`. 
 Project Name: A METHOD FOR COMBINING PREFETCHING ALGORITHMS USING ORCHESTRATION TO IMPROVE OVERALL ACCURACY, COVERAGE AND ADAPTIVITY ON VARYING ADDRESS STREAMS
 
-Please read the proposal [here](/Proposal.pd).
+Please read the proposal [here](/Proposal.pdf).
 
 ## Results:
 The following results have been obtained on [ChampSim](https://github.com/ChampSim/ChampSim) simulator using SPEC 2017 benchmark program traces available [here](http://hpca23.cse.tamu.edu/champsim-traces/speccpu/). The x-axis represents benchmark id.
